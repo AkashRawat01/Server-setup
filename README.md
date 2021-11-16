@@ -1,2 +1,3 @@
 # Server-setup
-Server setup using kubernetes cluster on redhat 8.4 OS 
+# Tools used are
+Nginx, Kubeadm, helm, Docker, Java, Redis, kafka/zookeeper, ELK, Mysql
