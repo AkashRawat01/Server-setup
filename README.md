@@ -222,14 +222,14 @@ sudo -i
 exit
 
 
-# sudo firewall-cmd --permanent --add-port=63/tcp
-  # sudo firewall-cmd --permanent --add-port=63/udp
-  # sudo firewall-cmd --permanent --add-port=67/tcp
-  # sudo firewall-cmd --permanent --add-port=67/udp
-  # sudo firewall-cmd --permanent --add-port=68/tcp
-  # sudo firewall-cmd --permanent --add-port=68/udp
-  # firewall-cmd --permanent --add-port=8472/udp
-  # firewall-cmd --add-masquerade --permanent
+  #sudo firewall-cmd --permanent --add-port=63/tcp
+  #sudo firewall-cmd --permanent --add-port=63/udp
+  #sudo firewall-cmd --permanent --add-port=67/tcp
+  #sudo firewall-cmd --permanent --add-port=67/udp
+  #sudo firewall-cmd --permanent --add-port=68/tcp
+  #sudo firewall-cmd --permanent --add-port=68/udp
+  #firewall-cmd --permanent --add-port=8472/udp
+  #firewall-cmd --add-masquerade --permanent
   
 **Run only on master**
 kubeadm init --control-plane-endpoint="**Load Balancer IP:6443**" --upload-certs --apiserver-advertise-address=**Master IP**
